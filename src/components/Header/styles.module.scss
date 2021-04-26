@@ -20,4 +20,15 @@
         margin-left: auto;
         text-transform: capitalize;
     }
+
+    button {
+        transition: filter 0.2s;
+        background: transparent;
+        border: 0;
+        font-size: 0;
+
+        &:hover {
+            filter: brightness(1.2);
+        }
+    }
 }
